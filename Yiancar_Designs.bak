@@ -1,0 +1,142 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:switches
+LIBS:nxp_armmcu
+LIBS:nxp
+LIBS:nt3h2111
+LIBS:Yiancar_Designs-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NT3H2111 U1
+U 1 1 5A9BEC9B
+P 1850 1675
+F 0 "U1" H 1600 1275 60  0000 C CNN
+F 1 "NT3H2111" H 1850 1925 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1850 1525 60  0001 C CNN
+F 3 "" H 1850 1525 60  0001 C CNN
+	1    1850 1675
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 5A9BF117
+P 1825 1100
+F 0 "C1" V 1900 1175 50  0000 L CNN
+F 1 "130pF" V 2000 1000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1863 950 50  0001 C CNN
+F 3 "" H 1825 1100 50  0001 C CNN
+	1    1825 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1975 1100 2350 1100
+Wire Wire Line
+	2350 825  2350 1525
+Wire Wire Line
+	1675 1100 1350 1100
+Wire Wire Line
+	1775 825  1350 825 
+Wire Wire Line
+	1875 825  2350 825 
+Connection ~ 2350 1100
+Wire Wire Line
+	1350 825  1350 1525
+Connection ~ 1350 1100
+$Comp
+L LED D1
+U 1 1 5A9BF2FA
+P 1850 2325
+F 0 "D1" H 1850 2425 50  0000 C CNN
+F 1 "19-217/R6C-AL1M2VY/3T" H 1850 2175 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 1850 2325 50  0001 C CNN
+F 3 "" H 1850 2325 50  0001 C CNN
+	1    1850 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5A9BF341
+P 2575 1975
+F 0 "R1" V 2655 1975 50  0000 C CNN
+F 1 "650" V 2575 1975 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2505 1975 50  0001 C CNN
+F 3 "" H 2575 1975 50  0001 C CNN
+	1    2575 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1625 2575 1625
+Wire Wire Line
+	2575 2325 2000 2325
+Wire Wire Line
+	1700 2325 1175 2325
+Wire Wire Line
+	1175 2325 1175 1625
+Wire Wire Line
+	1175 1625 1350 1625
+NoConn ~ 2350 1725
+NoConn ~ 2350 1825
+NoConn ~ 1350 1725
+NoConn ~ 1350 1825
+Wire Wire Line
+	2575 1625 2575 1825
+Wire Wire Line
+	2575 2125 2575 2325
+Wire Wire Line
+	1775 825  1775 750 
+Wire Wire Line
+	1775 750  1725 750 
+Wire Wire Line
+	1725 750  1725 725 
+Wire Wire Line
+	1725 725  1925 725 
+Wire Wire Line
+	1925 725  1925 750 
+Wire Wire Line
+	1925 750  1875 750 
+Wire Wire Line
+	1875 750  1875 825 
+Text Notes 1650 725  0    60   ~ 0
+Antenna
+$EndSCHEMATC

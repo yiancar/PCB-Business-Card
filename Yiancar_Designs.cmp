@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by PcbNew   date = 2018 March 11, Sunday 02:25:53
+
+BeginCmp
+TimeStamp = 5AAB8DBF
+Path = 
+Reference = REF**;
+ValeurCmp = 1U;
+IdModule  = MX_Alps_Hybrid:MX-1U-NoLED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAC243F
+Path = /5A9BF117
+Reference = C1;
+ValeurCmp = 130pF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAC2454
+Path = /5A9BF2FA
+Reference = D1;
+ValeurCmp = 19-217/R6C-AL1M2VY/3T;
+IdModule  = LEDs:LED_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAC2465
+Path = /5A9BF341
+Reference = R1;
+ValeurCmp = 650;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAC2482
+Path = /5A9BEC9B
+Reference = U1;
+ValeurCmp = NT3H2111;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AA3812E
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = logos:antena_test;
+EndCmp
+
+BeginCmp
+TimeStamp = 5AAD512C
+Path = 
+Reference = LOGO;
+ValeurCmp = [NoVal];
+IdModule  = logos:Yiancar_text;
+EndCmp
+
+EndListe
